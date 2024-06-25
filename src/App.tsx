@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import './fonts/fonts.css';
+import { Body } from './body';
 
 function App() {
   return (
@@ -9,7 +11,7 @@ function App() {
 
       </header>
       <body className='App-body'>
-
+        <Body />
       </body>
       <footer className='App-footer'>
 
