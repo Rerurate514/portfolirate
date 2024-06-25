@@ -1,7 +1,9 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import './fonts/fonts.css';
+import './css/fonts.css';
+import './css/padding.css';
+import './css/margin.css';
 import { Body } from "./components/body";
 
 function App() {

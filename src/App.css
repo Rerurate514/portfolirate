@@ -1,9 +1,53 @@
-* {
+body{
   background-color: #F6EFE2;
-
+  
   color: #201919;
 }
 
+.accent{
+  color: #F66620;
+}
+
+
 .center{
   text-align: center;
+}
+
+.no-margin{
+  margin: 0;
+}
+
+.back-black{
+  background-color: #201919;
+
+  color: #F6EFE2;
+}
+
+.vertical-margin{
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.flex{
+  display: flex;
+}
+
+.left-text{
+  text-align: left;
+}
+
+.right-text{
+  text-align: right;
+}
+
+.justify-center{
+  justify-content: center;
+}
+
+.justify-sa{
+  justify-content: space-around;
+}
+
+.justify-bw{
+  justify-content: space-between;
 }
