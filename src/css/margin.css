@@ -1,0 +1,27 @@
+.margin-2{
+    margin: 2px;
+}
+
+.margin-4{
+    margin: 4px;
+}
+
+.margin-8{
+    margin: 8px;
+}
+
+.margin-16{
+    margin: 16px;
+}
+
+.margin-32{
+    margin: 32px;
+}
+
+.margin-64{
+    margin: 64px;
+}
+
+.def-margin-top{
+    margin-top: 16px;
+}
