@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'futura-medium';
+    src: url('Futura Medium.otf') format('opentype');
+}
+.futura-font{
+    font-family: "futura-medium";
+}
+
+@font-face {
+    font-family: 'helvetica-regular';
+    src: url('Helvetica-Normal Regular.ttf') format('truetype');
+}
+.helvetica-font{
+    font-family: "helvetica-regular";
+}
