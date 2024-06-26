@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolirate/static/css/main.9aa31e12.css",
-    "main.js": "/portfolirate/static/js/main.eafdb56d.js",
+    "main.css": "/portfolirate/static/css/main.492623cb.css",
+    "main.js": "/portfolirate/static/js/main.fe03758e.js",
     "static/js/453.962bb282.chunk.js": "/portfolirate/static/js/453.962bb282.chunk.js",
     "static/media/skadi_ico.png": "/portfolirate/static/media/skadi_ico.d4446869f153e9b8e334.png",
     "static/media/Helvetica-Normal Regular.ttf": "/portfolirate/static/media/Helvetica-Normal Regular.8767b7eaa324f412ca1a.ttf",
     "static/media/Futura Medium.otf": "/portfolirate/static/media/Futura Medium.b4abcb4bbe7b5984f519.otf",
     "index.html": "/portfolirate/index.html",
-    "main.9aa31e12.css.map": "/portfolirate/static/css/main.9aa31e12.css.map",
-    "main.eafdb56d.js.map": "/portfolirate/static/js/main.eafdb56d.js.map",
+    "main.492623cb.css.map": "/portfolirate/static/css/main.492623cb.css.map",
+    "main.fe03758e.js.map": "/portfolirate/static/js/main.fe03758e.js.map",
     "453.962bb282.chunk.js.map": "/portfolirate/static/js/453.962bb282.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9aa31e12.css",
-    "static/js/main.eafdb56d.js"
+    "static/css/main.492623cb.css",
+    "static/js/main.fe03758e.js"
   ]
 }
