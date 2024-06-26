@@ -23,6 +23,12 @@ body{
   color: #F6EFE2;
 }
 
+.back-white{
+  background-color: #F6EFE2;
+
+  color: #201919;
+}
+
 .vertical-margin{
   margin-top: 32px;
   margin-bottom: 32px;
@@ -50,4 +56,23 @@ body{
 
 .justify-bw{
   justify-content: space-between;
+}
+
+.justify-center{
+  justify-content: center;
+}
+
+.width-side{
+  width: 50%;
+}
+
+.box{
+  width: 256px;
+  height: 256px;
+}
+
+.circle{
+  clip-path: circle(250px at 295px 270px);
+  border: 2px solid #F66620;
+  border-radius: 100%;
 }
