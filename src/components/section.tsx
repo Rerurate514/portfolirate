@@ -30,7 +30,8 @@ export const Section = () => {
                     </div>
                 </div>
                 <div className="left-margin-20 left-text">
-                    Rerur, LLC<br/><br/><br/>
+                    slow but steady wins the race
+                    <br/><br/><br/>
                     Institute Of Tohoku Univ.
                 </div>
             </div>
