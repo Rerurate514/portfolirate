@@ -5,3 +5,15 @@
 .underLine{
     border-bottom: 2px solid #201919;
 }
+
+.right-margin{
+    margin-right: 30%;
+}
+
+.left-margin-5{
+    margin-left: 5%;
+}
+
+.left-margin-20{
+    margin-left: 20%;
+}
