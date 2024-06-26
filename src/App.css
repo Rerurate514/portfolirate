@@ -4,34 +4,23 @@ body{
   color: #201919;
 }
 
-.accent{
-  color: #F66620;
-}
-
-
 .center{
   text-align: center;
+  justify-content: center;
 }
 
 .no-margin{
   margin: 0;
 }
 
-.back-black{
-  background-color: #201919;
-
-  color: #F6EFE2;
-}
-
-.back-white{
-  background-color: #F6EFE2;
-
-  color: #201919;
-}
-
 .vertical-margin{
   margin-top: 32px;
   margin-bottom: 32px;
+}
+
+.horizontal-padding{
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .flex{
@@ -75,4 +64,16 @@ body{
   clip-path: circle(250px at 295px 270px);
   border: 2px solid #F66620;
   border-radius: 100%;
+}
+
+.relative{
+  position: relative;
+}
+
+.absolute{
+  position: absolute;
+}
+
+.shadow{
+  box-shadow: 8px 8px #F66620;
 }
