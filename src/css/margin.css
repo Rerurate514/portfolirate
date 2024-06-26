@@ -22,6 +22,10 @@
     margin: 64px;
 }
 
+.margin-128{
+    margin: 128px;
+}
+
 .def-margin-top{
     margin-top: 16px;
 }

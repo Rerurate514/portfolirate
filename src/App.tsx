@@ -4,6 +4,9 @@ import './App.css';
 import './css/fonts.css';
 import './css/padding.css';
 import './css/margin.css';
+import './css/hex.css';
+import './css/cross.css';
+import './css/rotate.css';
 import { Body } from "./components/body";
 
 function App() {
