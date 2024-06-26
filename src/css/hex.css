@@ -1,0 +1,20 @@
+.hexagon-1__wrapper {
+	display: flex;
+	justify-content: center;
+}
+.hexagon-1_hexagon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	aspect-ratio: 200 / 173;
+	clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+.hexagon-1_hexagon>span {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 95%;
+	aspect-ratio: 200 / 173;
+	clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
