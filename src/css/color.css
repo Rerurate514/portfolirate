@@ -1,0 +1,32 @@
+.accent{
+    color: #F66620;
+}
+
+.green-accent{
+    color: #5C7F71;
+}
+
+.red-accent{
+    color:#802520
+}
+
+.yellow-accent{
+    color:#BA8530
+}
+
+
+.back-black{
+    background-color: #201919;
+
+    color: #F6EFE2;
+}
+
+.back-white{
+    background-color: #F6EFE2;
+
+    color: #201919;
+}
+
+.back-green{
+    background-color: #5C7F71;
+}
