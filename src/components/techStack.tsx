@@ -17,7 +17,7 @@ export const TechStack = () => {
                     <div>
                         <Box text="y" number={2020}/>
                         <Circle per={20}/>
-                        <div className="back-black relative">
+                        <div className="relative def-margin-top">
                             <span className="accent font-32">P</span>
                             rogramming Power
                         </div>
@@ -30,7 +30,7 @@ export const TechStack = () => {
                     <div>
                         <Box text="y" number={2024}/>
                         <Circle per={75}/>
-                        <div className="back-black relative">
+                        <div className="relative def-margin-top">
                             <span className="accent font-32">P</span>
                             rogramming Power
                         </div>
