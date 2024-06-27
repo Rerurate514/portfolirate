@@ -3,14 +3,14 @@ import { motion } from "framer-motion"
 export const AnimBox = (prop: {ele: JSX.Element}) => {
     return <motion.div
         animate={{
-            scale: [1, 1, 1, 1, 1],
+            x: [0, 500, 0],
+            y: [-50, -50, -50]
         }}
         transition={{
-            duration: 2,
+            duration: 5,
             ease: "easeInOut",
-            times: [0, 0.2, 0.5, 0.8, 1],
             repeat: Infinity,
-            repeatDelay: 1,
+            repeatDelay: 0,
         }}
     >
     {prop.ele}
