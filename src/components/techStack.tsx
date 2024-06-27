@@ -12,7 +12,7 @@ export const TechStack = () => {
             <span className="accent font-64">U</span>
             <Typewriter words={["sable Languages."]} typeSpeed={200} loop={0}/>    
         </h1>
-        <div className="flex justify-center vertical-margin bottom-margin">
+        <div className="flex justify-sa vertical-margin bottom-margin">
             <div className="flex box-tech center flex-3">
                     <div>
                         <Box text="y" number={2020}/>
@@ -36,21 +36,37 @@ export const TechStack = () => {
                         </div>
                     </div>
                 </div>
-            <div className="futura-font-light left-text flex justify-sa flex-2 underLine">
-                <div className="relative" style={{"width": "90%", "top":"64px"}}>
-                    <SectionNumber num={3} text={"Chronicle"} />
+            <div className="futura-font-light left-text justify-sa left-margin-5">
+                <div className="flex flex-2">
+                    <div className="relative" style={{"width": "50%"}}>
+                        <SectionNumber num={3} text={"Chronicle"} />
+                    </div>
+                    <div>
+                        <span className="font-32">I </span>
+                        started programming since high school.<br/><br/>
+                        In first, Learned C lang.<br/><br/>
+                        Next, Web Tech. It is too difficult.
+                        Especially structured layout.<br/><br/>
+                        At the end of high school I learned Kotlin.<br/><br/>
+                    </div>
                 </div>
-                <div>
-                    <span className="font-32">I </span>
-                    started programming since high school.<br/><br/>
-                    In first, Learned C lang.<br/><br/>
-                    Next, Web Tech. It is too difficult.
-                    Especially structured layout.<br/><br/>
-                    At the end of high school I learned Kotlin.<br/><br/>
+                <div className="underLine"/>
+                <div className="margin-32">
+                    <div className="obj-box">
+                        <AnimBox ele={
+                            <div className="obj-box back-black"></div>
+                        } />
+                    </div>
+                    <div className="back-black font-32 padding-4">
+                        I'm Good at Flutter.<br/>
+                        Won contest with Flutter App
+                    </div>
+                    It's Crowd-Funding App.<br />
+                    Then I can't get to sleep time lol.
                 </div>
             </div>
         </div>
-        <div className="flex justify-sa">
+        <div className="flex justify-sa vertical-margin">
             <div className="tech-section">
                 <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 24 24" style={{"fill":"#F6EFE2;"}}>
                     <path d="M3.5 12.5L6.5 15.5 19 3 13 3zM19 12L13 12 8 17 13 22 19 22 14 17z"></path>
