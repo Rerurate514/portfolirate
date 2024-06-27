@@ -29,7 +29,8 @@ export const Section = () => {
                 <div className="left-margin-20 left-text">
                     slow but steady wins the race
                     <br/><br/><br/>
-                    Institute Of Tohoku Univ.
+                    <span className="font-32">T</span>
+                    ohoku institute of technology
                 </div>
             </div>
         </div>
