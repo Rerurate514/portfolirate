@@ -84,3 +84,7 @@ body{
 .inline{
   display: inline-block;
 }
+
+.z-index-256{
+  z-index: 256;
+}

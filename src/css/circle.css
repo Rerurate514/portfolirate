@@ -1,0 +1,24 @@
+.percent .str{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #201919;
+}
+
+.graph {
+    width: 150px;
+    height: 150px;
+  
+    margin: 32px;
+    margin-top: 30%;
+
+    transform: rotate(-90deg);
+}
+
+.margin-svg-top{
+    margin-top: 10%;
+}

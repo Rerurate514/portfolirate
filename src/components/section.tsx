@@ -5,7 +5,7 @@ export const Section = () => {
     return (
         <div className="futura-font-light margin-32 width-side">
             <div className="flex padding-16 justify-bw underLine font-64">
-                <SectionNumber num={"01"} text={"Section"} />
+                <SectionNumber num={1} text={"Section"} />
                 <div className="left-text padding-8">
                     Project<br/>
                     <strong>

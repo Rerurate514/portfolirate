@@ -12,7 +12,9 @@ export const Profile = () => {
                 erurate_514 '
             </h2>
             <div className="left-text futura-font-light flex">
-                <SectionNumber num={"02"} text={"Introduction"} />
+                <div className="relative" style={{"width": "90%", "top":"64px"}}>
+                    <SectionNumber num={2} text={"Introduction"} />
+                </div>
                 <div className="vertical-margin">
                     <span className="font-32">B</span>
                     elong to Sendai's Univ.<br/>
@@ -29,7 +31,7 @@ export const Profile = () => {
             </div>
             <div className="underLine"/>
             <div className="shadow vertical-margin flex justify-sa back-black">
-                <span className="font-32">
+                <span className="font-32 padding-2">
                     //　　　//<br/>
                     //　　　//
                 </span>
