@@ -1,14 +1,11 @@
 import "../css/section.css"
+import { SectionNumber } from "./sectionNumber";
 
 export const Section = () => {
     return (
         <div className="futura-font-light margin-32 width-side">
             <div className="flex padding-16 justify-bw underLine font-64">
-                <div>
-                    <strong className="number">01</strong>
-                    /
-                    <span className="font-16">::: Section</span>
-                </div>
+                <SectionNumber num={"01"} text={"Section"} />
                 <div className="left-text padding-8">
                     Project<br/>
                     <strong>

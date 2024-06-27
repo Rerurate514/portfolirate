@@ -1,5 +1,6 @@
 import Icon from "../extra/skadi_ico.png";
 import { Box } from "./box";
+import { SectionNumber } from "./sectionNumber";
 
 export const Profile = () => {
     return <div className="flex vertical-margin justify-center">
@@ -11,6 +12,7 @@ export const Profile = () => {
                 erurate_514 '
             </h2>
             <div className="left-text futura-font-light flex">
+                <SectionNumber num={"02"} text={"Introduction"} />
                 <div className="vertical-margin">
                     <span className="font-32">B</span>
                     elong to Sendai's Univ.<br/>
