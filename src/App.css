@@ -7,6 +7,7 @@ body{
 .center{
   text-align: center;
   justify-content: center;
+  align-self: center;
 }
 
 .no-margin{
@@ -21,10 +22,6 @@ body{
 .horizontal-padding{
   padding-left: 10%;
   padding-right: 10%;
-}
-
-.flex{
-  display: flex;
 }
 
 .left-text{
@@ -76,4 +73,14 @@ body{
 
 .shadow{
   box-shadow: 8px 8px #F66620;
+}
+
+.piller{
+  background-color: #201919;
+  width: 2px;
+  height: 100%;
+}
+
+.inline{
+  display: inline-block;
 }

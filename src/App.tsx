@@ -8,6 +8,7 @@ import './css/hex.css';
 import './css/cross.css';
 import './css/rotate.css';
 import './css/color.css';
+import './css/flex.css';
 import { Body } from "./components/body";
 
 function App() {
