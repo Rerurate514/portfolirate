@@ -12,7 +12,6 @@ import './css/flex.css';
 import './css/svg.css';
 import './css/image.css';
 import './css/textGlow.css';
-import './css/position.css';
 import { Body } from "./components/body";
 
 function App() {
