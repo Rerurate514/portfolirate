@@ -1,6 +1,14 @@
 .resizeimage{
     width: 100%;
     object-fit: cover;
+    box-shadow: 0px 5px 5px rgba(0,0,0,.4);
+    border-radius: 8px;
+}
+
+.resizeimage::after{
+    background-color: blueviolet;
+    width: 25%;
+    height: 25%;
 }
 
 .arrow-image{
@@ -12,4 +20,21 @@
     height: 128px;
 }
 
+.bg-card {
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 10px;
+}
 
+.bg-card::after {
+
+}
+
+.bg-text{
+
+}
