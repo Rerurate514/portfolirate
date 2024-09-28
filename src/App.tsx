@@ -10,6 +10,8 @@ import './css/rotate.css';
 import './css/color.css';
 import './css/flex.css';
 import './css/svg.css';
+import './css/image.css';
+import './css/textGlow.css';
 import { Body } from "./components/body";
 
 function App() {
