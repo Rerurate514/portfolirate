@@ -52,11 +52,11 @@ export const TechStack = () => {
                 </div>
                 <div className="underLine"/>
                 <div className="margin-32">
-                    <div className="obj-box">
+                    {/* <div className="obj-box">
                         <AnimBox ele={
                             <div className="obj-box back-black"></div>
                         } />
-                    </div>
+                    </div> */}
                     <div className="back-black font-32 padding-4">
                         I'm Good at Flutter.<br/>
                         Won contest with Flutter App
