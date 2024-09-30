@@ -1,7 +1,7 @@
-export const ThreeDbox = () => {
+export const LangThreeDbox = () => {
     return <div>
         <div id="scene">
-            <div className="boxBase rotate3d futura-font-light white font-16">
+            <div className="boxBase rotate3d futura-font-light white font-16 margin-64">
                 <div className="top">Flutter</div>
                 <div className="bottom">Kotlin</div>
                 <div className="front">React</div>
