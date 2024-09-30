@@ -34,12 +34,28 @@
     margin-left: 5%;
 }
 
+.left-margin-10{
+    margin-left: 10%;
+}
+
+.left-margin-15{
+    margin-left: 15%;
+}
+
 .left-margin-20{
     margin-left: 20%;
 }
 
 .right-margin-5{
     margin-right: 5%;
+}
+
+.right-margin-10{
+    margin-right: 10%;
+}
+
+.right-margin-15{
+    margin-right: 15%;
 }
 
 .right-margin-20{
