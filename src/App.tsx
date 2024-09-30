@@ -9,11 +9,12 @@ import './css/cross.css';
 import './css/rotate.css';
 import './css/color.css';
 import './css/flex.css';
-import './css/svg.css';
+import './css/powerSvg.css';
 import './css/image.css';
 import './css/textGlow.css';
 import './css/align.css';
 import './css/langthreedbox.css';
+import './css/background.css'
 import { Body } from "./components/body";
 
 function App() {

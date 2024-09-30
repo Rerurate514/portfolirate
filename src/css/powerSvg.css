@@ -1,4 +1,4 @@
-svg circle {
+.graph > circle {
     position: relative;
     fill: none;
     stroke-width: 10;
@@ -8,13 +8,13 @@ svg circle {
     stroke: #201919;
 }
 
-svg circle.line-20 {
+.graph > circle.line-20 {
     stroke-dashoffset: calc(440 - (440 * 20) / 100);
     stroke: #201919;
     animation: circleAnim 1s forwards;
 }
 
-svg circle.line-75 {
+.graph >  circle.line-75 {
     stroke-dashoffset: calc(440 - (440 * 75) / 100);
     stroke: #201919;
     animation: circleAnim 1s forwards;
