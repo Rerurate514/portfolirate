@@ -1,18 +1,23 @@
 {
   "files": {
-    "main.css": "/portfolirate/static/css/main.32882aa3.css",
-    "main.js": "/portfolirate/static/js/main.959df721.js",
+    "main.css": "/portfolirate/static/css/main.36f25bfa.css",
+    "main.js": "/portfolirate/static/js/main.ee900829.js",
     "static/js/453.962bb282.chunk.js": "/portfolirate/static/js/453.962bb282.chunk.js",
+    "static/media/oshiage.png": "/portfolirate/static/media/oshiage.af00a84bf1294c801c64.png",
+    "static/media/oretier.png": "/portfolirate/static/media/oretier.3a26320da4e6488149c8.png",
+    "static/media/remusicalization.png": "/portfolirate/static/media/remusicalization.eb0adf85c10e5a02be93.png",
+    "static/media/tekuponoti.png": "/portfolirate/static/media/tekuponoti.606fe2d8952b417865d0.png",
+    "static/media/router_unlocker.png": "/portfolirate/static/media/router_unlocker.a4b4aff9d0e1f8468f4f.png",
     "static/media/skadi_ico.png": "/portfolirate/static/media/skadi_ico.d4446869f153e9b8e334.png",
     "static/media/Helvetica-Normal Regular.ttf": "/portfolirate/static/media/Helvetica-Normal Regular.8767b7eaa324f412ca1a.ttf",
     "static/media/Futura Medium.otf": "/portfolirate/static/media/Futura Medium.b4abcb4bbe7b5984f519.otf",
     "index.html": "/portfolirate/index.html",
-    "main.32882aa3.css.map": "/portfolirate/static/css/main.32882aa3.css.map",
-    "main.959df721.js.map": "/portfolirate/static/js/main.959df721.js.map",
+    "main.36f25bfa.css.map": "/portfolirate/static/css/main.36f25bfa.css.map",
+    "main.ee900829.js.map": "/portfolirate/static/js/main.ee900829.js.map",
     "453.962bb282.chunk.js.map": "/portfolirate/static/js/453.962bb282.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.32882aa3.css",
-    "static/js/main.959df721.js"
+    "static/css/main.36f25bfa.css",
+    "static/js/main.ee900829.js"
   ]
 }
