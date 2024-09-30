@@ -3,6 +3,7 @@ import { Hexes } from "./hexes";
 import { Profile } from "./profile";
 import { Section } from "./section";
 import { TechStack } from "./techStack";
+import { MadeApps } from "./madeApps";
 
 export const Body = () => {
     return <div className="center justify-center">
@@ -33,7 +34,9 @@ export const Body = () => {
         <div className="vertical-margin">
             <TechStack />
         </div>
-
+        <div className="vertical-margin">
+            <MadeApps />
+        </div>
 
     </div>
 }
