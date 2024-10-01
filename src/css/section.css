@@ -3,7 +3,7 @@
 }
 
 .underLine{
-    border-bottom: 2px solid #201919;
+    border-bottom: 2px solid var(--black);
 }
 
 .right-margin{

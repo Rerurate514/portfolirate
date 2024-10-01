@@ -5,18 +5,18 @@
     stroke-dasharray: 440;
     stroke-dashoffset: 0;
     stroke-linecap: round;
-    stroke: #201919;
+    stroke: var(--black);
 }
 
 .graph > circle.line-20 {
     stroke-dashoffset: calc(440 - (440 * 20) / 100);
-    stroke: #201919;
+    stroke: var(--black);
     animation: circleAnim 1s forwards;
 }
 
 .graph >  circle.line-75 {
     stroke-dashoffset: calc(440 - (440 * 75) / 100);
-    stroke: #201919;
+    stroke: var(--black);
     animation: circleAnim 1s forwards;
 }
 

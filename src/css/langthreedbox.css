@@ -12,8 +12,8 @@
     position:absolute;
     width:100%;
     height:100%;
-    background-color:#201919; /* 面の色 */
-    border:1px solid #F66620; /* 縁 */
+    background-color: var(--black); /* 面の色 */
+    border:1px solid  var(--accent); /* 縁 */
 
     display: flex;
     align-items: center;

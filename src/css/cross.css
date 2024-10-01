@@ -11,5 +11,5 @@
 	left: -60px;
 	width: 120px;
 	height: 3px;
-    background-color: #201919;
+    background-color: var(--black);
 }

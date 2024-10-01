@@ -6,7 +6,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #201919;
+    color: var(--black);
 }
 
 .graph {

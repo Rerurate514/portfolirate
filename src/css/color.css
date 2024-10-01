@@ -1,35 +1,44 @@
+:root{
+    --accent: #F66620;
+    --accennt-green: #5C7F71;
+    --accent-red: #802520;
+    --accent-yellow: #BA8530;
+    --white: #F6EFE2;
+    --black: #201919;
+}   
+
 .accent{
-    color: #F66620;
+    color: var(--accent)
 }
 
 .green-accent{
-    color: #5C7F71;
+    color: var(--accennt-green);
 }
 
 .red-accent{
-    color:#802520
+    color: var(--accent-red)
 }
 
 .yellow-accent{
-    color:#BA8530
+    color: var(--accent-yellow)
 }
 
 .white{
-    color: #F6EFE2;
+    color: var(--white)
 }
 
 .back-black{
-    background-color: #201919;
+    background-color: var(--black);
 
-    color: #F6EFE2;
+    color: var(--white);
 }
 
 .back-white{
-    background-color: #F6EFE2;
+    background-color: var(--white);
 
-    color: #201919;
+    color: var(--black);
 }
 
 .back-green{
-    background-color: #5C7F71;
+    background-color: var(--accennt-green);
 }

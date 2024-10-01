@@ -47,7 +47,7 @@
 }
 
 .bg-card:hover .bg-title{
-    color: #F66620;
+    color: var(--accent);
 }
 
 .bg-card:hover .bg-text-wrapper{
