@@ -7,17 +7,21 @@ interface Point {
 
 export const BackGround = () => {
     return <div className='stars relative'>
-        <Star r={3} angle={13/10 * Math.PI}/>
-        <Star r={5} angle={7/6 * Math.PI}/>
-        <Star r={3} angle={5/4 * Math.PI}/>
-        <Star r={2} angle={13/12 * Math.PI}/>
-        <Star r={4} angle={19/14 * Math.PI}/>
+        <Star r={4} angle={195 + (Math.random() * 10) - (Math.random() * 10)} speedFactor={Math.random()}/>
+        <Star r={5} angle={200 + (Math.random() * 10) - (Math.random() * 10)} speedFactor={Math.random()}/>
+        <Star r={2} angle={205 + (Math.random() * 10) - (Math.random() * 10)} speedFactor={Math.random()}/>
+        <Star r={3} angle={210 + (Math.random() * 10) - (Math.random() * 10)} speedFactor={Math.random()}/>
+        <Star r={5} angle={215 + (Math.random() * 10) - (Math.random() * 10)} speedFactor={Math.random()}/>
+        <Star r={3} angle={220 + (Math.random() * 10) - (Math.random() * 10)} speedFactor={Math.random()}/>
+        <Star r={2} angle={225 + (Math.random() * 10) - (Math.random() * 10)} speedFactor={Math.random()}/>
+        <Star r={4} angle={230 + (Math.random() * 10) - (Math.random() * 10)} speedFactor={Math.random()}/>
     </div>
 }
 
-const Star = (props: {r: number, angle: number}) => {
+const Star = (props: {r: number, angle: number, speedFactor: number}) => {
     const r = props.r;
-    const angle = props.angle;
+    const angle = (props.angle) * Math.PI / 180;
+    const speed = props.speedFactor + 0.5;
 
     const X_BASE = window.innerWidth + 10;
     const Y_BASE = -10;
@@ -40,7 +44,7 @@ const Star = (props: {r: number, angle: number}) => {
             const y = Math.sin(angle) * (r + i);
 
             setPoint({x: X_BASE + x, y: -y});
-            inc(i + 1)
+            inc(i + speed)
 
             if(i > 256) {
                 const linex = Math.cos(angle) * (r + (i - 256));
