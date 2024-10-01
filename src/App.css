@@ -1,7 +1,7 @@
 body{
-  background-color: #F6EFE2;
+  background-color: var(--white);
   
-  color: #201919;
+  color: var(--black);
 }
 
 .center{
@@ -65,7 +65,7 @@ body{
 
 .circle{
   clip-path: circle(250px at 295px 270px);
-  border: 2px solid #F66620;
+  border: 2px solid var(--accent);
   border-radius: 100%;
 }
 
@@ -82,11 +82,11 @@ body{
 }
 
 .shadow{
-  box-shadow: 8px 8px #F66620;
+  box-shadow: 8px 8px var(--accent);
 }
 
 .piller{
-  background-color: #201919;
+  background-color: var(--black);
   width: 2px;
   height: 100%;
 }
