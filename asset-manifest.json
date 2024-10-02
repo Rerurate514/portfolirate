@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolirate/static/css/main.349dcdab.css",
-    "main.js": "/portfolirate/static/js/main.4607dba2.js",
+    "main.css": "/portfolirate/static/css/main.ccc31600.css",
+    "main.js": "/portfolirate/static/js/main.c0087309.js",
     "static/js/453.962bb282.chunk.js": "/portfolirate/static/js/453.962bb282.chunk.js",
     "static/media/oshiage.png": "/portfolirate/static/media/oshiage.af00a84bf1294c801c64.png",
     "static/media/oretier.png": "/portfolirate/static/media/oretier.3a26320da4e6488149c8.png",
@@ -11,13 +11,14 @@
     "static/media/skadi_ico.png": "/portfolirate/static/media/skadi_ico.d4446869f153e9b8e334.png",
     "static/media/Helvetica-Normal Regular.ttf": "/portfolirate/static/media/Helvetica-Normal Regular.8767b7eaa324f412ca1a.ttf",
     "static/media/Futura Medium.otf": "/portfolirate/static/media/Futura Medium.b4abcb4bbe7b5984f519.otf",
+    "static/media/portfolirate-logo.svg": "/portfolirate/static/media/portfolirate-logo.f75ea3e1ea748a506fc3035b12aca396.svg",
     "index.html": "/portfolirate/index.html",
-    "main.349dcdab.css.map": "/portfolirate/static/css/main.349dcdab.css.map",
-    "main.4607dba2.js.map": "/portfolirate/static/js/main.4607dba2.js.map",
+    "main.ccc31600.css.map": "/portfolirate/static/css/main.ccc31600.css.map",
+    "main.c0087309.js.map": "/portfolirate/static/js/main.c0087309.js.map",
     "453.962bb282.chunk.js.map": "/portfolirate/static/js/453.962bb282.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.349dcdab.css",
-    "static/js/main.4607dba2.js"
+    "static/css/main.ccc31600.css",
+    "static/js/main.c0087309.js"
   ]
 }
