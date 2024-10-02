@@ -5,7 +5,8 @@ import { Section } from "./section";
 import { TechStack } from "./techStack";
 import { MadeApps } from "./madeApps";
 import { BackGround } from "./background";
-
+import logo from "../extra/portfolirate-logo.svg"
+ 
 export const Body = () => {
     return <div className="center justify-center relative">
         <div className="absolute width-max fixed">
@@ -31,7 +32,9 @@ export const Body = () => {
             </div>
             <div className="flex justify-sa">
                 <Section />
-                <Hexes />
+                <div className="center width-side">
+                    <img src={logo} className="App-logo" alt="logo" width={512}/>
+                </div>
             </div>
             <div className="vertical-margin">
                 <Profile />
