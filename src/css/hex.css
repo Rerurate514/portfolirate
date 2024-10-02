@@ -1,20 +1,57 @@
-.hexagon-1__wrapper {
-	display: flex;
-	justify-content: center;
+:root{
+	--v-val: 9vh;
+	--h-val: 3vw;
 }
-.hexagon-1_hexagon {
-	display: flex;
-	justify-content: center;
+
+.hexes{
+	width: 40vw;
+	height: 40vh;
 	align-items: center;
-	width: 100%;
-	aspect-ratio: 200 / 173;
-	clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+	transform: translateX(70vw);
 }
-.hexagon-1_hexagon>span {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 95%;
+
+.hex-wrapper{
+	
+}
+
+.hex{
+	width: 5vw;
 	aspect-ratio: 200 / 173;
-	clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+	margin-top: 4vh;
+}
+
+.hex:hover{
+	transform: scale(0.8);
+}
+
+.hex-right-1{
+	transform: translateX(-3vw);
+}
+
+.hex-left-1{
+	transform: translateX(3vw);
+}
+
+.hex-right-2{
+	transform: translateX(-6vw);
+}
+
+.hex-left-2{
+	transform: translateX(6vw);
+}
+
+.hex-right-3{
+	transform: translateX(-9vw);
+}
+
+.hex-left-3{
+	transform: translateX(9vw);
+}
+
+.hex-right-4{
+	transform: translateX(-12vw);
+}
+
+.hex-left-4{
+	transform: translateX(12vw);
 }

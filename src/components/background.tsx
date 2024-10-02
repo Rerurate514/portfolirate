@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Hexes } from './hexes';
 
 interface Point {
     x: number;
@@ -6,15 +7,20 @@ interface Point {
 }
 
 export const BackGround = () => {
-    return <div className='stars relative'>
-        <Star r={4} angle={195 + (Math.random() * 10) - (Math.random() * 10)} speedFactor={Math.random()}/>
-        <Star r={5} angle={200 + (Math.random() * 10) - (Math.random() * 10)} speedFactor={Math.random()}/>
-        <Star r={2} angle={205 + (Math.random() * 10) - (Math.random() * 10)} speedFactor={Math.random()}/>
-        <Star r={3} angle={210 + (Math.random() * 10) - (Math.random() * 10)} speedFactor={Math.random()}/>
-        <Star r={5} angle={215 + (Math.random() * 10) - (Math.random() * 10)} speedFactor={Math.random()}/>
-        <Star r={3} angle={220 + (Math.random() * 10) - (Math.random() * 10)} speedFactor={Math.random()}/>
-        <Star r={2} angle={225 + (Math.random() * 10) - (Math.random() * 10)} speedFactor={Math.random()}/>
-        <Star r={4} angle={230 + (Math.random() * 10) - (Math.random() * 10)} speedFactor={Math.random()}/>
+    return <div>
+        <div className='stars relative'>
+            <Star r={4} angle={195 + (Math.random() * 10) - (Math.random() * 10)} speedFactor={Math.random()}/>
+            <Star r={5} angle={200 + (Math.random() * 10) - (Math.random() * 10)} speedFactor={Math.random()}/>
+            <Star r={2} angle={205 + (Math.random() * 10) - (Math.random() * 10)} speedFactor={Math.random()}/>
+            <Star r={3} angle={210 + (Math.random() * 10) - (Math.random() * 10)} speedFactor={Math.random()}/>
+            <Star r={5} angle={215 + (Math.random() * 10) - (Math.random() * 10)} speedFactor={Math.random()}/>
+            <Star r={3} angle={220 + (Math.random() * 10) - (Math.random() * 10)} speedFactor={Math.random()}/>
+            <Star r={2} angle={225 + (Math.random() * 10) - (Math.random() * 10)} speedFactor={Math.random()}/>
+            <Star r={4} angle={230 + (Math.random() * 10) - (Math.random() * 10)} speedFactor={Math.random()}/>
+        </div>
+        <div>
+            <Hexes />
+        </div>
     </div>
 }
 
