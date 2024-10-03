@@ -6,6 +6,7 @@ import { TechStack } from "./techStack";
 import { MadeApps } from "./madeApps";
 import { BackGround } from "./background";
 import logo from "../extra/portfolirate-logo.svg"
+import { Constellation } from "./constellation";
  
 export const Body = () => {
     return <div className="center justify-center relative">
@@ -44,6 +45,21 @@ export const Body = () => {
             </div>
             <div className="vertical-margin">
                 <MadeApps />
+            </div>
+            <div className="vertical-margin">
+                <Constellation />
+            </div>
+            <div className="vertical-margin">
+                
+            </div>
+            <div className="vertical-margin">
+                
+            </div>
+            <div className="vertical-margin">
+                
+            </div>
+            <div className="vertical-margin">
+                
             </div>
         </div>
     </div>
