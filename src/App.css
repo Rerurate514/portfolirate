@@ -1,104 +1,108 @@
-body{
+body {
   background-color: var(--white);
-  
+
   color: var(--black);
 }
 
-.center{
+.center {
   text-align: center;
   justify-content: center;
   align-self: center;
 }
 
-.no-margin{
+.no-margin {
   margin: 0;
 }
 
-.vertical-margin{
-  margin-top: 32px;
-  margin-bottom: 32px;
+.vertical-margin {
+  margin-top: 64px;
+  margin-bottom: 64px;
 }
 
-.horizontal-padding{
+.horizontal-padding {
   padding-left: 10%;
   padding-right: 10%;
 }
 
-.left-text{
+.left-text {
   text-align: left;
 }
 
-.right-text{
+.right-text {
   text-align: right;
 }
 
-.justify-center{
+.justify-center {
   justify-content: center;
 }
 
-.justify-sa{
+.justify-sa {
   justify-content: space-around;
 }
 
-.justify-bw{
+.justify-bw {
   justify-content: space-between;
 }
 
-.justify-center{
+.justify-center {
   justify-content: center;
 }
 
-.width-side-tiny{
+.width-side-tiny {
   width: 33%;
 }
 
-.width-side{
+.width-side {
   width: 50%;
 }
 
-.width-max{
+.width-max {
   width: 100%;
   height: 100%;
 }
 
 
-.box{
+.box {
   width: 256px;
   height: 256px;
 }
 
-.circle{
+img > .circle {
+  filter: blur(20px);
+}
+
+.circle {
   clip-path: circle(250px at 295px 270px);
   border: 2px solid var(--accent);
   border-radius: 100%;
 }
 
-.relative{
+.relative {
   position: relative;
 }
 
-.absolute{
+.absolute {
   position: absolute;
 }
 
-.fixed{
+.fixed {
   position: fixed;
 }
 
-.shadow{
+.shadow {
   box-shadow: 8px 8px var(--accent);
 }
 
-.piller{
+.piller {
   background-color: var(--black);
   width: 2px;
   height: 100%;
 }
 
-.inline{
+.inline {
   display: inline-block;
 }
 
-.z-index-256{
+.z-index-256 {
   z-index: 256;
 }

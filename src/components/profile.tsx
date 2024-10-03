@@ -3,8 +3,8 @@ import { Box } from "./box";
 import { SectionNumber } from "./sectionNumber";
 
 export const Profile = () => {
-    return <div className="flex vertical-margin justify-center">
-        <img src={Icon} className="circle" alt="Rerurate-Icon"/>
+    return <div className="flex justify-center">
+        <img src={Icon} className="circle size-fix center" alt="Rerurate-Icon"/>
         <div className=" left-margin-5">
             <h2 className="futura-font-bold font-64">
                 ' 
