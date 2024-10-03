@@ -16,6 +16,7 @@ import './css/align.css';
 import './css/langthreedbox.css';
 import './css/background.css'
 import './css/mirror.css';
+import './css/planet.css';
 import { Body } from "./components/body";
 
 function App() {
