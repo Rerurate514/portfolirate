@@ -7,7 +7,7 @@
 	width: 40vw;
 	height: 40vh;
 	align-items: center;
-	transform: translateX(70vw);
+	transform: translateX(60vw);
 }
 
 .hex-wrapper{
@@ -54,4 +54,30 @@
 
 .hex-left-4{
 	transform: translateX(12vw);
+}
+
+
+
+.hex-left-5{
+	transform: translateX(15vw);
+}
+
+.hex-left-6{
+	transform: translateX(18vw);
+}
+
+.hex-left-7{
+	transform: translateX(21vw);
+}
+
+.hex-left-8{
+	transform: translateX(24vw);
+}
+
+.hex-left-9{
+	transform: translateX(27vw);
+}
+
+.hex-left-10{
+	transform: translateX(30vw);
 }
