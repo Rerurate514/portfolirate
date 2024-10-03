@@ -39,6 +39,7 @@
     z-index: 100;
     font-size: 200%;
     transition: 0.1s ease-in-out;
+    text-shadow: 3px 3px 10px#201919;
 }
 
 .bg-title-wrapper{
