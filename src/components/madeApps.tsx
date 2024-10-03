@@ -18,7 +18,7 @@ const tekupoText = "This is Flutter Application. ";
 export const MadeApps = () => {
     return <div>
         <div className="futura-font-light margin-64">
-            <div className="flex">
+            <div className="flex left-margin-5">
                 <div className="flex padding-16 justify-bw underLine font-64 width-side">
                     <SectionNumber num={4} text={"Production"} />
                     <div className="left-text padding-8">

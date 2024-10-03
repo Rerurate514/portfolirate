@@ -48,6 +48,10 @@ body{
   justify-content: center;
 }
 
+.width-side-tiny{
+  width: 33%;
+}
+
 .width-side{
   width: 50%;
 }
