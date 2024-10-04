@@ -33,7 +33,7 @@ export const Body = () => {
             </div>
             <div className="flex justify-sa">
                 <Section />
-                <div className="center width-side">
+                <div className="center width-side-tiny">
                     <img src={logo} className="App-logo" alt="logo" width={512}/>
                 </div>
             </div>
