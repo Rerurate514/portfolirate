@@ -19,6 +19,14 @@
     font-family: "helvetica-regular";
 }
 
+@font-face {
+    font-family: 'east-liberty';
+    src: url('../fonts/East/liberty/sans.otf') format("opentype");
+}
+.liberty-font{
+    font-family: 'east-liberty';
+}
+
 .font-2{
     font-size: 2px;
 }
