@@ -1,3 +1,5 @@
+import "../css/mirror.css";
+
 export const MirrorStr = (prop: {str: string}) => {
     return <div className="mirror-str">
         <div className="str">

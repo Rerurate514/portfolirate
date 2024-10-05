@@ -1,3 +1,5 @@
+import "../css/planet.css";
+
 export const Planet = () => {
     return <div className="pn-scene relative">
         <div className="pn-surface absolute">

@@ -1,3 +1,5 @@
+import "../css/langthreedbox.css"
+
 export const LangThreeDbox = () => {
     return <div>
         <div id="scene">

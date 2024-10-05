@@ -1,13 +1,13 @@
 import Oshiage from "../extra/oshiage.png";
 import Oretier from "../extra/oretier.png";
-import Obsidian from "../extra/obsiidna-plugin.png";
 import Remusicalization from "../extra/remusicalization.png";
 import Router from "../extra/router_unlocker.png";
 import Tekupo from "../extra/tekuponoti.png";
 import { MadeAppCard } from "./madeAppCard";
 import { SectionNumber } from "./sectionNumber";
-import { Typewriter } from "react-simple-typewriter";
 import { LangThreeDbox } from "./3dBox";
+
+import "../css/image.css";
 
 const oshiageText = "This is Flutter Application. It is the winning entry in a certain bisiness contest.";
 const oreText = "This is Flutter Application. ";

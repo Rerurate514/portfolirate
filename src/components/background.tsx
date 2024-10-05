@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Hexes } from './hexes';
 
+import "../css/background.css";
+
 interface Point {
     x: number;
     y: number;

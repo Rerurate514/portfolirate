@@ -22,3 +22,35 @@
 .margin-svg-top{
     margin-top: 25%;
 }
+
+.graph > circle {
+    position: relative;
+    fill: none;
+    stroke-width: 10;
+    stroke-dasharray: 440;
+    stroke-dashoffset: 0;
+    stroke-linecap: round;
+    stroke: var(--black);
+}
+
+.graph > circle.line-20 {
+    stroke-dashoffset: calc(440 - (440 * 20) / 100);
+    stroke: var(--black);
+    animation: circleAnim 1s forwards;
+}
+
+.graph >  circle.line-75 {
+    stroke-dashoffset: calc(440 - (440 * 75) / 100);
+    stroke: var(--black);
+    animation: circleAnim 1s forwards;
+}
+
+@keyframes circleAnim {
+    0% {
+        stroke-dasharray: 0 440;
+    }
+    99.9%, to {
+        stroke-dasharray: 440 440;
+    }
+}
+
