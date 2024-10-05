@@ -1,0 +1,63 @@
+.box-wrapper{
+    height: 120px;
+    justify-content: center;
+    display: flex;
+}
+
+.mega-letters-wrapper{
+    height: 80%;
+}
+
+.mini-letters-wrapper{
+    height: 80%;
+}
+
+.mega-letters{
+    height: 50px;
+    overflow: hidden;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.mini-letters{
+    height: 25px;
+    overflow: hidden;
+}
+
+.ditdea{
+    z-index: 100;
+}
+
+.deep{
+    z-index: 100;
+}
+
+.alone{
+    z-index: 100;
+}
+
+.ditdea::before{
+    content: "DIVE INTO THE DEEP END ALONE";
+    color: var(--white);
+    position: absolute;
+    z-index: -1;
+}
+
+.deep::before{
+    content: "deep";
+    color: var(--white);
+    position: absolute;
+    z-index: -1;
+}
+
+.alone::before{
+    content: "ALONE";
+    color: var(--white);
+    position: absolute;
+    z-index: -1;
+}
+
+.stack-box{
+    height: 148px;
+    transform: translateY(-48px);
+}

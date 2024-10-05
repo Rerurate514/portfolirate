@@ -7,6 +7,8 @@ import { MadeApps } from "./madeApps";
 import { BackGround } from "./background";
 import logo from "../extra/portfolirate-logo.svg"
 import { Constellation } from "./constellation";
+import AnimatedOnView from "./scrollAnimated";
+import { ColorChangeLetters } from "./colorChangeLetters";
  
 export const Body = () => {
     return <div className="center justify-center relative">
@@ -50,7 +52,7 @@ export const Body = () => {
                 <Constellation />
             </div>
             <div className="vertical-margin">
-                
+                <ColorChangeLetters />
             </div>
             <div className="vertical-margin">
                 
