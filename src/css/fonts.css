@@ -48,3 +48,16 @@
 .font-128{
     font-size: 128px;
 }
+
+.letter-space-1{
+    letter-spacing: 1rem;
+}
+.letter-space-1-5{
+    letter-spacing: 1.5rem;
+}
+.letter-space-2{
+    letter-spacing: 2rem;
+}
+.letter-space-2-5{
+    letter-spacing: 2.5rem;
+}
