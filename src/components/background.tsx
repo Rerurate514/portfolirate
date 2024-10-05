@@ -27,7 +27,7 @@ export const BackGround = () => {
 const Star = (props: {r: number, angle: number, speedFactor: number}) => {
     const r = props.r;
     const angle = (props.angle) * Math.PI / 180;
-    const speed = props.speedFactor + 0.5;
+    const speed = props.speedFactor + 3.5;
 
     const X_BASE = window.innerWidth + 10;
     const Y_BASE = -10;
