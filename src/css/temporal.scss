@@ -1,11 +1,39 @@
+$trans: translateY(100px) rotate3d(-10, 2, 4, 45deg);
+
 .card {
-    transform: rotate3d(-10, 2, 4, 45deg);
+    transform: $trans;
+    border-radius: 16px;
 }
 
-// 5から10までの間で繰り返す
+.phone{
+    stroke: var(--white);
+}
+
+.flutter{
+    fill: var(--white);
+}
+
+.card-ac-phone{
+    stroke: var(--black);
+}
+
+.card-ac-flutter{
+    stroke: var(--black);
+    fill: var(--black);
+}
+
+.card-pull{
+    background-color: var(--accent);
+    transform: $trans + translateX(-64px) translateZ(75px);
+}
+
 @for $i from 1 through 10 {
     .card-ab-#{$i} {
-        transform: translateY(-10px * $i);
+        transform: translateY(-15px * $i);
         position: absolute;
+    }
+
+    .card-ab-#{$i}:hover {
+        
     }
 }
