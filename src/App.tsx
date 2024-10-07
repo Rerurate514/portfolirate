@@ -7,7 +7,7 @@ import './css/cross.css';
 import './css/rotate.css';
 import './css/color.css';
 import './css/flex.css';
-import './css/textGlow.css';
+import './css/svg.css';
 import './css/align.css';
 
 import { Body } from "./components/body";
