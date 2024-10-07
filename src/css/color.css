@@ -11,6 +11,10 @@
     color: var(--accent)
 }
 
+.accent-first::first-letter{
+    color: var(--accent)
+}
+
 .green-accent{
     color: var(--accennt-green);
 }

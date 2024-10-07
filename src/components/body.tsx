@@ -9,6 +9,7 @@ import logo from "../extra/portfolirate-logo.svg"
 import { Constellation } from "./constellation";
 import AnimatedOnView from "./scrollAnimated";
 import { ColorChangeLetters } from "./colorChangeLetters";
+import { Temporal } from "./temporal";
  
 export const Body = () => {
     return <div className="center justify-center relative">
@@ -55,7 +56,7 @@ export const Body = () => {
                 <ColorChangeLetters />
             </div>
             <div className="vertical-margin">
-                
+                <Temporal />
             </div>
             <div className="vertical-margin">
                 

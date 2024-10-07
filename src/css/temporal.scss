@@ -1,0 +1,11 @@
+.card {
+    transform: rotate3d(-10, 2, 4, 45deg);
+}
+
+// 5から10までの間で繰り返す
+@for $i from 1 through 10 {
+    .card-ab-#{$i} {
+        transform: translateY(-10px * $i);
+        position: absolute;
+    }
+}
