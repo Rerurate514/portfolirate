@@ -1,5 +1,5 @@
 import { Typewriter } from "react-simple-typewriter"
-import "../css/techStack.css"
+import "../css/techStack.scss"
 import { Box } from "./box"
 import { AnimBox } from "./animBox";
 import { SectionNumber } from "./sectionNumber";

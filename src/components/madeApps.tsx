@@ -7,7 +7,7 @@ import { MadeAppCard } from "./madeAppCard";
 import { SectionNumber } from "./sectionNumber";
 import { LangThreeDbox } from "./3dBox";
 
-import "../css/image.css";
+import "../css/image.scss";
 
 const oshiageText = "This is Flutter Application. It is the winning entry in a certain bisiness contest.";
 const oreText = "This is Flutter Application. ";

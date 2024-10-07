@@ -1,4 +1,4 @@
-import "../css/planet.css";
+import "../css/planet.scss";
 
 export const Planet = () => {
     return <div className="pn-scene relative">

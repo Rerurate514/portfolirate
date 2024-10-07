@@ -1,4 +1,4 @@
-import "../css/section.css"
+import "../css/section.scss"
 import { SectionNumber } from "./sectionNumber";
 
 export const Section = () => {

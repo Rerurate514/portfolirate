@@ -1,4 +1,4 @@
-import "../css/circle.css";
+import "../css/circle.scss";
 import  CountUp  from "react-countup"
 
 export const Circle = (prop: {per: number}) => {

@@ -1,4 +1,4 @@
-import "../css/langthreedbox.css"
+import "../css/langthreedbox.scss"
 
 export const LangThreeDbox = () => {
     return <div>

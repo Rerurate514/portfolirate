@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Hexes } from './hexes';
 
-import "../css/background.css";
+import "../css/background.scss";
 
 interface Point {
     x: number;

@@ -1,4 +1,4 @@
-import "../css/colorChangeLetters.css";
+import "../css/colorChangeLetters.scss";
 
 export const ColorChangeLetters = () => {
     return <div>
