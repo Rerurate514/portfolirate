@@ -25,3 +25,21 @@
 .padding-128{
     padding: 128px;
 }
+
+@for $i from 1 through 10{
+    .left-padding-#{$i * 5} {
+        padding-left: 5% * $i;
+    }
+
+    .right-padding-#{$i * 5} {
+        padding-right: 5% * $i;
+    }
+
+    .top-padding-#{$i * 5} {
+        padding-top: 5% * $i;
+    }
+
+    .bottom-padding-#{$i * 5} {
+        padding-bottom: 5% * $i;
+    }
+}
