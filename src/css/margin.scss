@@ -30,36 +30,22 @@
     margin-top: 16px;
 }
 
-.left-margin-5{
-    margin-left: 5%;
-}
+@for $i from 1 through 10{
+    .left-margin-#{$i * 5} {
+        margin-left: 5% * $i;
+    }
 
-.left-margin-10{
-    margin-left: 10%;
-}
+    .right-margin-#{$i * 5} {
+        margin-right: 5% * $i;
+    }
 
-.left-margin-15{
-    margin-left: 15%;
-}
+    .top-margin-#{$i * 5} {
+        margin-top: 5% * $i;
+    }
 
-.left-margin-20{
-    margin-left: 20%;
-}
-
-.right-margin-5{
-    margin-right: 5%;
-}
-
-.right-margin-10{
-    margin-right: 10%;
-}
-
-.right-margin-15{
-    margin-right: 15%;
-}
-
-.right-margin-20{
-    margin-right: 20%;
+    .bottom-margin-#{$i * 5} {
+        margin-bottom: 5% * $i;
+    }
 }
 
 .bottom-margin{
