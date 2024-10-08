@@ -1,18 +1,10 @@
-import { Typewriter } from "react-simple-typewriter"
-import "../css/techStack.scss"
 import { Box } from "./box"
-import { AnimBox } from "./animBox";
 import { SectionNumber } from "./sectionNumber";
 import { Circle } from "./circle";
-import { LangIcons } from "./langIcons";
+import "../css/techStack.scss"
 
 export const TechStack = () => {
     return <div className="futura-font-light horizontal-padding">
-        <h1>
-            &gt;_
-            <span className="accent font-64">U</span>
-            <Typewriter words={["sable Languages."]} typeSpeed={200} loop={0} />
-        </h1>
         <div className="flex justify-sa vertical-margin bottom-margin">
             <div className="flex box-tech flex-3">
                 <div>

@@ -1,8 +1,14 @@
 import React, { ReactNode } from 'react';
 import "../css/langIcon.scss"
+import { Typewriter } from 'react-simple-typewriter';
 
 export const LangIcons = () => {
     return <div className="bottom-margin-10 futura-font-light">
+        <h1 className='margin-64'>
+            &gt;_
+            <span className="accent font-64">U</span>
+            <Typewriter words={["sable Languages."]} typeSpeed={200} loop={0} />
+        </h1>
         <div className="flex justify-sa">
             <LangIcon title='Flutter' text='I always develop App using this lang.'>
                 <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="128" height="128" viewBox="0 0 24 24">
