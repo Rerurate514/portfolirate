@@ -30,12 +30,15 @@ export const MadeApps = () => {
                     </div>
                 </div>
                 <div className="left-margin-10 right-margin-5">
-                    <p className="align-left">
+                    <p className="left-text">
                         <span className="font-32">I </span>
                         made many applications.
                     </p>
-                    <p className="bottom-margin">
+                    <p className="left-text bottom-margin">
                         Here is an example of applications I created.
+                    </p>
+                    <p className="left-text bottom-margin">
+                        All apps is in My Github repositry.
                     </p>
                 </div>
                 <LangThreeDbox />
