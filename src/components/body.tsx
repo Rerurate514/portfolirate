@@ -9,6 +9,7 @@ import { Constellation } from "./constellation";
 import { ColorChangeLetters } from "./colorChangeLetters";
 import { Temporal } from "./temporal";
 import { LangIcons } from "./langIcons";
+import { Contact } from "./contact";
  
 export const Body = () => {
     return <div className="center justify-center relative">
@@ -61,7 +62,7 @@ export const Body = () => {
                 <Temporal />
             </div>
             <div className="vertical-margin">
-                
+                <Contact />
             </div>
             <div className="vertical-margin">
                 
