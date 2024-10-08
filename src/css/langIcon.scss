@@ -1,0 +1,89 @@
+$radius: 8px;
+
+.lang-container{
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.tech-section{
+    width: 350px;
+    height: 150px;  
+    border-radius: $radius;
+    box-shadow: 4px 4px 4px 4px #342131;
+    padding: 16px;
+    background-color: var(--white);
+    
+    &::before{
+        content: '';
+        width: 334px;
+        height: 134px;  
+        border-radius: $radius;
+        padding: 8px;
+        position: absolute;
+    
+        background-color: var(--accent);
+        opacity: 1;
+
+        transform: scale(0,1);
+        transition: .5s;
+        transform-origin: left top; 
+    }
+    &:hover::before{
+        transform: scale(1,1);
+    }
+    &:hover{
+        text-shadow: 2px 2px 8px var(--white);;
+    }
+
+    svg{
+        border-radius: $radius;
+        padding: 8px;
+        position: relative;
+        overflow: hidden;
+
+    }
+    
+    .obsidian{
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .lang-accent{
+        color: var(--black);
+        font-size: 32px;
+        text-shadow: 1px 1px 1px #201919;
+    
+        &::first-letter{
+            color: var(--accent-red);
+            font-size: 64px;
+        }
+    }
+
+    .lang-card-text{
+        z-index: 1;
+        margin-top: 4px;
+        margin-right: 8px;
+        letter-spacing: 0.05rem;
+    }
+}
+
+.lang-svg-card-wrapper{
+    width: 140px;
+    height: 140px;
+    border-radius: $radius;
+}
+
+.lang-svg-card{
+    height: 100%;
+}
+
+@keyframes lang-card-spin {
+    from{
+        transform: rotateY(0deg);
+    }
+    to{
+        transform: rotateY(360deg);
+    }
+}
