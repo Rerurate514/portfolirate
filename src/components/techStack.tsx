@@ -62,6 +62,5 @@ export const TechStack = () => {
                 </div>
             </div>
         </div>
-        <LangIcons />
     </div>
 }

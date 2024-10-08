@@ -1,5 +1,4 @@
 import { Typewriter } from "react-simple-typewriter";
-import { Hexes } from "./hexes";
 import { Profile } from "./profile";
 import { Section } from "./section";
 import { TechStack } from "./techStack";
@@ -7,9 +6,9 @@ import { MadeApps } from "./madeApps";
 import { BackGround } from "./background";
 import logo from "../extra/portfolirate-logo.svg"
 import { Constellation } from "./constellation";
-import AnimatedOnView from "./scrollAnimated";
 import { ColorChangeLetters } from "./colorChangeLetters";
 import { Temporal } from "./temporal";
+import { LangIcons } from "./langIcons";
  
 export const Body = () => {
     return <div className="center justify-center relative">
@@ -45,6 +44,9 @@ export const Body = () => {
             </div>
             <div className="vertical-margin">
                 <TechStack />
+            </div>
+            <div className="vertical-margin">
+                <LangIcons />
             </div>
             <div className="vertical-margin">
                 <MadeApps />
