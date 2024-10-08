@@ -9,15 +9,19 @@ export const Temporal = () => {
             <div className="flex justify-bw underLine font-64">
                 <SectionNumber num={6} text={"Temporal frontier"} />
                 <div className="helvetica-font left-text padding-8">
-                    <p className="accent-first no-margin">MOBILE</p>
-                    <p className="no-margin">ENGINEER</p>
+                    <p className="accent-first no-margin">
+                        <strong>MOBILE</strong>
+                    </p>
+                    <p className="no-margin">
+                        <strong>Engineer</strong>
+                    </p>
                 </div>
             </div>
             <div className="flex def-margin-top">
-                <div className="font-64 margin-32">
-                    <MirrorStr str="I want"/>
+                <div className="font-64 def-margin-top">
+                    <MirrorStr str="I wanna be a"/>
                 </div>
-                <div className="left-text margin-32 left-margin-20">
+                <div className="left-text margin-32 left-margin-5">
                     <p className="no-margin">my dream is mobile engineer</p>
                     <p className="no-margin">I study mobile engineering languages</p>
                     <p className="no-margin">not released yet, but I wanna release immediately.</p>
