@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolirate/static/css/main.180793dd.css",
-    "main.js": "/portfolirate/static/js/main.2b94513b.js",
+    "main.css": "/portfolirate/static/css/main.cc335bd1.css",
+    "main.js": "/portfolirate/static/js/main.91dd31c1.js",
     "static/js/453.962bb282.chunk.js": "/portfolirate/static/js/453.962bb282.chunk.js",
     "static/media/oshiage.png": "/portfolirate/static/media/oshiage.af00a84bf1294c801c64.png",
     "static/media/oretier.png": "/portfolirate/static/media/oretier.3a26320da4e6488149c8.png",
@@ -14,12 +14,12 @@
     "static/media/East liberty sans.otf": "/portfolirate/static/media/East liberty sans.e7e6f392d3beff0e9ff2.otf",
     "static/media/portfolirate-logo.svg": "/portfolirate/static/media/portfolirate-logo.f75ea3e1ea748a506fc3035b12aca396.svg",
     "index.html": "/portfolirate/index.html",
-    "main.180793dd.css.map": "/portfolirate/static/css/main.180793dd.css.map",
-    "main.2b94513b.js.map": "/portfolirate/static/js/main.2b94513b.js.map",
+    "main.cc335bd1.css.map": "/portfolirate/static/css/main.cc335bd1.css.map",
+    "main.91dd31c1.js.map": "/portfolirate/static/js/main.91dd31c1.js.map",
     "453.962bb282.chunk.js.map": "/portfolirate/static/js/453.962bb282.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.180793dd.css",
-    "static/js/main.2b94513b.js"
+    "static/css/main.cc335bd1.css",
+    "static/js/main.91dd31c1.js"
   ]
 }
