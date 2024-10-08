@@ -3,37 +3,38 @@ $trans: translateY(100px) rotate3d(-10, 2, 4, 45deg);
 .card {
     transform: $trans;
     border-radius: 16px;
-}
+    box-shadow: 4px 4px 4px var(--white);
 
-.phone{
-    stroke: var(--white);
-}
+    .phone{
+        stroke: var(--white);
+        fill: var(--black);
+        stroke-width: 2px;
+    }
+    
+    .flutter{
+        fill: var(--white);
+    }
 
-.flutter{
-    fill: var(--white);
-}
-
-.card-ac-phone{
-    stroke: var(--black);
-}
-
-.card-ac-flutter{
-    stroke: var(--black);
-    fill: var(--black);
+    .card-ac-phone{
+        stroke: var(--accent);
+        fill: var(--black);
+    }
+    
+    .card-ac-flutter{
+        stroke: var(--black);
+        fill: var(--black);
+    }
 }
 
 .card-pull{
     background-color: var(--accent);
     transform: $trans + translateX(-64px) translateZ(75px);
+    box-shadow: 4px 4px 4px var(--black);
 }
 
 @for $i from 1 through 10 {
     .card-ab-#{$i} {
         transform: translateY(-15px * $i);
         position: absolute;
-    }
-
-    .card-ab-#{$i}:hover {
-        
     }
 }
