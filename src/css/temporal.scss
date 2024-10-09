@@ -3,7 +3,7 @@ $trans: translateY(100px) rotate3d(-10, 2, 4, 45deg);
 .card {
     transform: $trans;
     border-radius: 16px;
-    box-shadow: 4px 4px 4px var(--white);
+    box-shadow: 4px 4px var(--white);
 
     .phone{
         stroke: var(--white);
