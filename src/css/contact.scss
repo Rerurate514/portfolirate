@@ -1,0 +1,29 @@
+.ct-circle{
+    height: 170px;
+    border-radius: 1000px;
+    background-color: var(--white);
+    color: var(--black);
+    vertical-align: middle;
+    aspect-ratio: 1/1;
+}
+
+.black-draw{
+    position: relative;
+
+    &::before{
+        content: "CONNECT";
+        position: absolute;
+        background-color: var(--black);
+        height: 40%;
+        width: 180%;
+
+        overflow: hidden;
+        font-weight: bold;
+
+        transform: translateX(-120px) translateY(23px);
+    }
+}
+
+.initial::first-letter{
+    font-size: 32px;
+}
