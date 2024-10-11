@@ -10,6 +10,7 @@ import { ColorChangeLetters } from "./colorChangeLetters";
 import { Temporal } from "./temporal";
 import { LangIcons } from "./langIcons";
 import { Contact } from "./contact";
+import { RightsAndThanks } from "./rightsAndThanks";
  
 export const Body = () => {
     return <div className="center justify-center relative">
@@ -64,8 +65,8 @@ export const Body = () => {
             <div className="vertical-margin">
                 <Contact />
             </div>
-            <div className="vertical-margin">
-                
+            <div className="top-margin-5">
+               <RightsAndThanks /> 
             </div>
         </div>
     </div>
