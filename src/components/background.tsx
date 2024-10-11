@@ -9,7 +9,7 @@ interface Point {
 }
 
 export const BackGround = () => {
-    return <div>
+    return <div className='width-max'>
         <div className='stars relative'>
             <Star r={4} angle={195 + (Math.random() * 10) - (Math.random() * 10)} speedFactor={Math.random()}/>
             <Star r={5} angle={200 + (Math.random() * 10) - (Math.random() * 10)} speedFactor={Math.random()}/>
@@ -32,7 +32,7 @@ const Star = (props: {r: number, angle: number, speedFactor: number}) => {
     const speed = props.speedFactor + 3.5;
 
     const X_BASE = window.innerWidth + 10;
-    const Y_BASE = -10;
+    const Y_BASE = 0;
 
     const X_LIMIT = -window.innerWidth * 1.3;
     const Y_LIMIT = -window.innerHeight * 1.3;
