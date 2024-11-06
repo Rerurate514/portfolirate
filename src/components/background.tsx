@@ -9,8 +9,8 @@ interface Point {
 }
 
 export const BackGround = () => {
-    return <div className='width-max'>
-        <div className='stars relative'>
+    return <div className='width-max relative'>
+        <div className='stars absolute'>
             <Star r={4} angle={195 + (Math.random() * 10) - (Math.random() * 10)} speedFactor={Math.random()}/>
             <Star r={5} angle={200 + (Math.random() * 10) - (Math.random() * 10)} speedFactor={Math.random()}/>
             <Star r={2} angle={205 + (Math.random() * 10) - (Math.random() * 10)} speedFactor={Math.random()}/>
@@ -20,7 +20,7 @@ export const BackGround = () => {
             <Star r={2} angle={225 + (Math.random() * 10) - (Math.random() * 10)} speedFactor={Math.random()}/>
             <Star r={4} angle={230 + (Math.random() * 10) - (Math.random() * 10)} speedFactor={Math.random()}/>
         </div>
-        <div>
+        <div className='absolute'>
             <Hexes />
         </div>
     </div>
