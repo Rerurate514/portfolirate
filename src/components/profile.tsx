@@ -4,7 +4,7 @@ import { SectionNumber } from "./sectionNumber";
 
 export const Profile = () => {
     return <div className="flex justify-center">
-        <img src={Icon} className="circle size-fix center" alt="Rerurate-Icon"/>
+        <img src={Icon} className="circle size-fix center" alt="Rerurate-Icon" width={"25%"}/>
         <div className=" left-margin-5">
             <h2 className="futura-font-bold font-64">
                 ' 
@@ -22,10 +22,10 @@ export const Profile = () => {
                     I'm not good at the Web Tech.<br/>
                     <br/>
                 </div>
-                <span className="font-32 green-accent">&gt;</span>
-                <span className="font-32 yellow-accent">&gt;</span>
-                <span className="font-32 red-accent">&gt;</span>
-                <div className="left-margin-5">
+                <span className="font-32 green-accent top-margin-5">&gt;</span>
+                <span className="font-32 yellow-accent top-margin-5">&gt;</span>
+                <span className="font-32 red-accent top-margin-5">&gt;</span>
+                <div className="left-margin-5 top-margin-5">
                     <Box text="year" number={2}/>
                 </div>
             </div>
