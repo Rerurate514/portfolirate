@@ -18,7 +18,7 @@ export const Contact = () => {
                     </p>
                 </div>
             </div>
-            <div className="flex bottom-text left-margin-10 right-margin-10">
+            <div className="flex bottom-text left-margin-5 right-margin-10">
                 <div className="futura-font-light">
                     <SectionNumber num={7} text={"contact"} />
                 </div>
