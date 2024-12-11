@@ -8,6 +8,7 @@ import './css/rotate.scss';
 import './css/color.scss';
 import './css/flex.scss';
 import './css/align.scss';
+import './css/grid.scss';
 
 import { Body } from "./components/body";
 

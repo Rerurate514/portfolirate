@@ -5,7 +5,7 @@ import "../css/techStack.scss"
 
 export const TechStack = () => {
     return <div className="futura-font-light horizontal-padding">
-        <div className="flex justify-sa vertical-margin bottom-margin">
+        <div className="justify-sa vertical-margin bottom-margin grid">
             <div className="flex box-tech flex-3">
                 <div>
                     <Box text="y" number={2020} />
