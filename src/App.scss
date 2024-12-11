@@ -6,8 +6,6 @@ body {
   margin: 0;
   padding: 0;
 
-  width: 97.1vw;
-
   text-align: center;
 }
 
@@ -87,7 +85,6 @@ img > .circle {
 }
 
 .circle {
-  clip-path: circle(250px at 295px 270px);
   border: 2px solid var(--accent);
   border-radius: 100%;
 }
