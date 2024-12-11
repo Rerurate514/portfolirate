@@ -38,7 +38,7 @@ export const Body = () => {
             <div className="flex justify-sa">
                 <Section />
                 <div className="center width-side-tiny">
-                    <img src={logo} className="App-logo" alt="logo" width={512}/>
+                    <img src={logo} className="App-logo" alt="logo" width={"100%"}/>
                 </div>
             </div>
             <div className="vertical-margin">
