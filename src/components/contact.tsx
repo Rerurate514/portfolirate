@@ -5,8 +5,8 @@ import { SectionNumber } from "./sectionNumber"
 export const Contact = () => {
     return <div className="futura-font-light margin-32 flex left-margin-10 right-margin-10 top-margin-5">
     <div className="width-max">
-        <div className="flex underLine font-64">
-            <div className="back-black font-64 flex">
+        <div className="flex underLine">
+            <div className="back-black flex">
                 <div className="ct-circle flex center">
                     <p className="no-margin font-128 accent">
                         <strong>R</strong>
