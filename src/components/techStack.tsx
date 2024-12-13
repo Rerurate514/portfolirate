@@ -16,7 +16,7 @@ export const TechStack = () => {
                     </div>
                 </div>
                 <span
-                    className="font-64 relative horizontal-padding"
+                    className="font-40 margin-32"
                     style={{ "top": "30px" }}>
                     /～/
                 </span>
