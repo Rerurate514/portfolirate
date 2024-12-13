@@ -3,12 +3,24 @@
     grid-auto-flow: row;
     grid-template-columns: repeat(auto-fit, 60% 45%);
     grid-template-rows: 100% 100%;
-
-    
 }
 
 @media (max-width: 600px) {
     .grid {
       grid-template-columns: 1fr;
     }
+}
+
+.iwanna-grid{
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-columns: repeat(auto-fit, 65% 35%);
+  grid-template-rows: 100% 100%;
+}
+
+.tempo-grid{
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-columns: repeat(auto-fit, 60% 40%);
+  grid-template-rows: 100% 100%;
 }
