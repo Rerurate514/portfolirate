@@ -3,11 +3,11 @@ import { Planet } from "./planet";
 import { SectionNumber } from "./sectionNumber";
 
 export const Constellation = () => {
-    return <div className="futura-font-light margin-32 flex center">
-        <div className="def-margin-top width-side-tiny">
+    return <div className="futura-font-light margin-32 flex center justify-sa">
+        <div className="def-margin-top center">
             <Planet />
         </div>
-        <div className=" width-side">
+        <div className="width-side">
             <div className="flex padding-16 justify-bw underLine">
                 <SectionNumber num={5} text={"Constellation"} />
                 <div className="center font-64 futura-font-bold">
