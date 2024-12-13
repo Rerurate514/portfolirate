@@ -15,7 +15,7 @@ export const Profile = () => {
                 <div className="relative" style={{"width": "90%", "top":"64px"}}>
                     <SectionNumber num={2} text={"Introduction"} />
                 </div>
-                <div className="vertical-margin">
+                <div className="bottom-margin-10">
                     <span className="font-32">B</span>
                     elong to Sendai's Univ.<br/>
                     Mobile Engineer.<br/>

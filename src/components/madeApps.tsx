@@ -19,9 +19,11 @@ export const MadeApps = () => {
     return <div>
         <div className="futura-font-light margin-64">
             <div className="flex left-margin-5">
-                <div className="flex padding-16 justify-bw underLine font-64 width-side">
-                    <SectionNumber num={4} text={"Production"} />
-                    <div className="left-text padding-8">
+                <div className="flex justify-bw font-50 width-side underLine">
+                    <div className="center">
+                        <SectionNumber num={4} text={"Production"} />
+                    </div>
+                    <div className="left-text padding-8 center">
                         <i>
                         Made<br/>
                         <span className="accent"> A</span>
@@ -29,7 +31,7 @@ export const MadeApps = () => {
                         </i>
                     </div>
                 </div>
-                <div className="left-margin-10 right-margin-5">
+                <div className="left-margin-5">
                     <p className="left-text">
                         <span className="font-32">I </span>
                         made many applications.
