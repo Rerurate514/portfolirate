@@ -17,11 +17,12 @@ export const Temporal = () => {
                     </p>
                 </div>
             </div>
-            <div className="flex def-margin-top">
-                <div className="font-64 def-margin-top">
-                    <MirrorStr str="I wanna be a"/>
+            <div className="flex def-margin-top tempo-grid">
+                <div className="font-64 def-margin-top iwanna-grid">
+                    <MirrorStr str="I wanna"/>
+                    <MirrorStr str="be a"/>
                 </div>
-                <div className="left-text margin-32 left-margin-5">
+                <div className="left-text left-margin-10">
                     <p className="no-margin">my dream is mobile engineer</p>
                     <p className="no-margin">I study mobile engineering languages</p>
                     <p className="no-margin">not released yet, but I wanna release immediately.</p>
