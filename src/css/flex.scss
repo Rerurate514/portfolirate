@@ -3,6 +3,10 @@
     display: flex;
 }
 
+.flex-c{
+    flex-direction: column;
+}
+
 .flex-1{
     flex: 1;
 }
@@ -36,3 +40,5 @@
         flex-grow: $i;
     }
 }
+
+
