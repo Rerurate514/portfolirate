@@ -22,3 +22,17 @@
 .flex-5{
     flex: 5;
 }
+
+.flex-g-1{
+    flex-grow: 1;
+}
+
+@for $i from 1 through 10{
+    .flex-#{$i} {
+        flex: $i;
+    }
+
+    .flex-g-#{&i}{
+        flex-grow: $i;
+    }
+}
