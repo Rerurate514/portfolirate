@@ -1,0 +1,17 @@
+.img-resize{
+    width: 256px;
+    flex-shrink: 0;
+}
+
+.underline{
+    border-bottom: 2px solid var(--black);
+}
+
+.left{
+    width: 100%;
+    text-align: left;
+}
+
+.rd-img{
+    border-radius: 32px;
+}
