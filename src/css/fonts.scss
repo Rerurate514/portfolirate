@@ -35,26 +35,14 @@
     font-size: 40px;
 }
 
-.font-2{
-    font-size: 2px;
-}
-.font-4{
-    font-size: 4px;
-}
-.font-8{
-    font-size: 8px;
-}
-.font-16{
-    font-size: 16px;
-}
-.font-32{
-    font-size: 32px;
-}
-.font-64{
-    font-size: 64px;
-}
-.font-128{
-    font-size: 128px;
+@for $i from 1 through 7 {
+    .font-#{pow(2, $i)} {
+        font-size: #{pow(2, $i)}px;
+    }
+
+    .f-font-#{pow(2, $i)}::first-letter {
+        font-size: #{pow(2, $i)}px;
+    }
 }
 
 .letter-space-1{
