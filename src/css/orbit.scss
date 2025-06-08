@@ -1,0 +1,27 @@
+@for $i from 1 through 11 {
+    @keyframes orbit-spin-dash-#{$i} {
+        0% {
+            stroke-dasharray: #{30 + $i * 3} #{10 + $i * 3};
+        }
+        25% {
+            stroke-dasharray: #{25 + $i * 5} #{15 + $i * 2};
+        }
+        50% {
+            stroke-dasharray: #{30 + $i * 2} #{10 + $i * 5};
+        }
+        75% {
+            stroke-dasharray: #{15 + $i * 4} #{25 + $i * 3};
+        }
+        100% {
+            stroke-dasharray: #{10 + $i * 3} #{30 + $i * 3};
+        }
+    }
+    
+    .orbit-cir-#{$i} {
+        stroke-dashoffset: calc(360 - (360 * 100) / 100 * ($i * 40));
+        animation: orbit-spin-dash-#{$i} #{8 + $i * 2 * 10}s cubic-bezier(0.1, -0.6, 0.2, 0) infinite;
+        animation-delay: #{$i}s;
+        transform-origin: center;
+        opacity: #{1 - ($i * 0.05)};
+    }
+}
