@@ -11,9 +11,9 @@ interface Point {
 
 export const BackGround = () => {
     return <div className='width-max relative'>
-        <div className='absolute'>
+        {/* <div className='absolute'>
             <Orbit />
-        </div>
+        </div> */}
         <div className='stars absolute'>
             <Star r={4} angle={195 + (Math.random() * 10) - (Math.random() * 10)} speedFactor={Math.random()}/>
             <Star r={5} angle={200 + (Math.random() * 10) - (Math.random() * 10)} speedFactor={Math.random()}/>
